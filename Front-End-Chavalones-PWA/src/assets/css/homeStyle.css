@@ -1,0 +1,15 @@
+.home {
+    display: flex;
+    transition: margin-left 0.3s; /* Agrega una transición para suavizar la animación */
+  }
+  
+  .menu-open {
+    margin-left: 250px; /* Ajusta el valor según el ancho de tu menú */
+  }
+  
+  .container {
+    flex: 1;
+    overflow-x: hidden;
+    transition: margin-left 0.3s; /* Asegúrate de tener la misma transición que en .home */
+  }
+  
